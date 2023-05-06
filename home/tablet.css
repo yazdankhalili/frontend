@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.main_btn {
+  background-color: blue;
+  text-align: center;
+  display: none;
+}
+.btn_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.btn {
+  flex-basis: 50%;
+  text-align: center;
+  padding: 5px;
+}
+.btn3,
+.btn4 {
+  margin-top: 10px;
+}
+.btn:nth-child(odd) {
+  background-color: brown;
+}
+.btn:nth-child(even) {
+  background-color: darkgreen;
+}
